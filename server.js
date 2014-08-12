@@ -22,3 +22,7 @@ app.listen(app.get('port'), function() {
 app.get('/name/:name', function(request, response) {
     response.json({ msg: 'Hello, ' + request.param('name') });
 });
+
+app.get('/time', function(request, response) {
+    response.json({ localTime: new Date().toLocaleTimeString() });
+});
