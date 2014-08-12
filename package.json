@@ -1,0 +1,26 @@
+{
+  "name": "cf-express-json-api",
+  "version": "1.0.0",
+  "description": "JSON API With Express =====================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrockBeaudry/cf-express-json-api"
+  },
+  "keywords": [
+    "Express",
+    "JSON"
+  ],
+  "author": "Brock Beaudry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrockBeaudry/cf-express-json-api/issues"
+  },
+  "homepage": "https://github.com/BrockBeaudry/cf-express-json-api",
+  "dependencies": {
+    "express": "^4.8.3"
+  }
+}
