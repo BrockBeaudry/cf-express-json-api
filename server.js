@@ -19,6 +19,10 @@ app.listen(app.get('port'), function() {
 
 // Routing
 
+app.get('/', function(request, response) {
+    response.send('Routes: <br><br>name/"name"<br>/time');
+});
+
 app.get('/name/:name', function(request, response) {
     response.json({ msg: 'Hello, ' + request.param('name') });
 });
